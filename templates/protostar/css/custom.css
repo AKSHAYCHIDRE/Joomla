@@ -1,0 +1,41 @@
+
+body{
+	font-family: 'Poppins', sans-serif;
+}
+.body .container{
+	padding: 0;
+	border: 0;
+}
+/*  Header css here  */
+
+.navigation{
+	border: 0;
+}
+.nav-pills > li > a{
+	padding: 13px 20px;
+	margin: 0 4px;
+}
+.nav > li > a:hover, 
+.nav > li > a:focus{
+	background-color: #23bcde;
+	color: #fff;
+}
+.jmoddiv.jmodinside h3{
+	display: none;
+}
+
+/*  Banner css here  */
+
+.container .camera_amber_skin .camera_prev > span{
+	background-position: 0 0px;
+}
+.container .camera_amber_skin .camera_next > span{
+	background-position: -40px 0px;	
+}
+.container .camera_amber_skin .camera_commands > .camera_stop{
+	background-position: -121px 1px;
+}
+.container .camera_amber_skin .camera_commands > .camera_play{
+	background-position: -81px 1px;
+}
+
