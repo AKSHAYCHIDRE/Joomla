@@ -2,10 +2,42 @@
 body{
 	font-family: 'Poppins', sans-serif;
 }
+body.site{
+	border-top: 0 ;
+}
 .body .container{
 	padding: 0;
 	border: 0;
 }
+body p{
+	font-size: 15px;
+}
+body a{
+	color: #23bcde;
+}
+a.btn{
+	background: #764ebe;
+    border: 0;
+    box-shadow: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    padding: 7px 15px 7px 9px;
+} 
+ .readmore {
+	margin-bottom: 5px
+}
+.readmore:hover a{
+	color: #fff;
+	background: #23bcde;
+}
+
+/* fronted Editor   */
+
+.btn[aria-label="User tools"]{
+	display: none;
+}
+
 /*  Header css here  */
 
 .navigation{
@@ -14,15 +46,19 @@ body{
 .nav-pills > li > a{
 	padding: 13px 20px;
 	margin: 0 4px;
+	color: #000000;
 }
+
 .nav > li > a:hover, 
 .nav > li > a:focus{
 	background-color: #23bcde;
 	color: #fff;
 }
-.jmoddiv.jmodinside h3{
+/* .jmoddiv.jmodinside h3{
 	display: none;
-}
+} */
+
+
 
 /*  Banner css here  */
 
@@ -38,4 +74,202 @@ body{
 .container .camera_amber_skin .camera_commands > .camera_play{
 	background-position: -81px 1px;
 }
+
+ /*  About us section  */
+
+.blog-featuredhome .items-leading{
+	 background-color: #f7f7ff;
+	 padding: 0 20px 30px;
+ }
+ .blog-featuredhome .item-title{
+	margin: 0;
+    padding: 20px 20px 30px;
+    text-align: center;
+ }
+ .blog-featuredhome .pull-left.item-image{
+	margin: 0 30px 0px 0;
+ }
+
+/*  Services Section  */
+
+.blog-featuredhome .items-row{
+	padding: 0  0px 20px;
+	margin-top: 30px;
+}
+.blog-featuredhome .items-row .item{
+	background: #fff;
+	padding: 0 18px 20PX;
+}
+.blog-featuredhome .items-row .item-title{
+	font-size: 22px;
+	padding: 20px 0px 20px;	
+	text-align: left;
+}
+.blog-featuredhome .items-row p{
+	text-align: justify;
+	font-size: 15px;
+}
+.blog-featuredhome .items-row .item-image{
+	margin: 0 0 20px 0;
+    position: relative;
+    overflow: hidden;
+    padding: 100px 160px;
+}
+.blog-featuredhome .items-row img{
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+
+/* About page css here   */
+
+.itemid-103 h2{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.itemid-103 #content{
+	padding: 20px;		
+}
+
+/*  Blog page css here  */
+
+.blog-page{
+	padding: 30px 20px ;
+	background: #f7f7f7;
+}
+.blog-page .span6{
+	padding: 20px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.blog-page .item{
+	display: flex;
+	flex-direction: column;
+	min-height: 590px;
+}
+.blog-page .item .item-image + p{
+	flex: 1 0 auto;
+}
+.blog-page .page-header{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.blog-page .page-header h2{
+	font-size: 24px;
+	margin-bottom: 14px;
+}
+.blog-page .item-image{
+	margin-bottom: 20px;
+	position: relative;
+    overflow: hidden;
+    padding-bottom: 60%;
+}
+.blog-page img{
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.blog-page .btn{
+	background: #764ebe;
+    border: 0;
+    box-shadow: none;
+    font-size: 14px;
+    color: #fff;
+    font-weight: normal;
+    padding: 7px 15px 7px 9px;
+}
+.blog-page .icon-chevron-right{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+    margin-right: .25em;
+    line-height: 14px;
+}
+.blog-page .readmore {
+	margin-bottom: 5px
+}
+.blog-page .readmore:hover a{
+	color: #fff;
+	background: #23bcde;
+}
+
+/*  Blog Details page  */
+.view-article .item-page-page{
+	padding: 20px;
+}
+.view-article #content{
+	background: #f7f7f7;
+}
+.view-article .page-header{
+	margin: 0 0 16px;
+    padding-bottom: 0;
+    border: 0;
+}
+
+/*  Services page css here  */
+
+.item-page-services{
+	padding: 20px;
+}
+.blog-services{
+	padding: 20px;
+	background: #f7f7f7;
+}
+
+.blog-services .span4{
+	padding: 20px;
+	background-color: #fff;
+	margin-bottom: 20px;
+}
+.blog-services .item{
+	display: flex;
+	flex-direction: column;
+	min-height: 550px;
+}
+.blog-services .item .item-image + p{
+	flex: 1 0 auto;
+}
+.blog-services .page-header{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+.blog-services .page-header h2{
+	font-size: 24px;
+	margin-bottom: 14px;
+}
+.blog-services .item-image{
+	margin: 0 0px 18px 0;
+	position: relative;
+    overflow: hidden;
+    padding-bottom: 60%;
+}
+.blog-services img{
+	position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+}
+.blog-services .icon-chevron-right{
+	display: inline-block;
+    width: 14px;
+    height: 14px;
+    font-size: 12px;
+    margin-right: .25em;
+    line-height: 14px;
+}
+
+
+
+
 
